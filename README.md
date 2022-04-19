@@ -1,10 +1,10 @@
 <img width="120" alt="Desktop" src="https://user-images.githubusercontent.com/13852315/109897383-3c907b00-7c58-11eb-94c4-de56bfaebecd.png">
 
-## Telos Labs - Front end test (TEESH Project)
+## Front end (TEESH Project)
 
 ### Overview
 
-This test consists on implementing a simple view following a design handoff with basic requirements. This is a basic example of the daily job a Front end Developer does here at Telos. Depending on the project, we can use different libraries, frameworks and approaches, but essentially it always comes down to the use of HTML, CSS and Javascript on a Ruby on Rails environment to implement a design and/or client needs, using clean and maintainable code.
+This test consists on implementing a simple view following a design handoff with basic requirements. This is a basic example of the daily job a Front end Developer does here at . Depending on the project, we can use different libraries, frameworks and approaches, but essentially it always comes down to the use of HTML, CSS and Javascript on a Ruby on Rails environment to implement a design and/or client needs, using clean and maintainable code.
 
 ### Requirements
 
