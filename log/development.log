@@ -6,3 +6,1202 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3663)
 
 
+Started GET "/__/firebase/9.6.11/firebase-app-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+Started GET "/__/firebase/9.6.11/firebase-auth-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+Started GET "/__/firebase/9.6.11/firebase-functions-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+Started GET "/__/firebase/9.6.11/firebase-firestore-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+Started GET "/__/firebase/9.6.11/firebase-database-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-app-compat.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-auth-compat.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-functions-compat.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-firestore-compat.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-database-compat.js"):
+  
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/static.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-mini-profiler-2.3.4/lib/mini_profiler/profiler.rb:393:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/webpacker-5.4.3/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-proxy-0.7.2/lib/rack/proxy.rb:67:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/engine.rb:539:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/server.rb:441:in `process_client'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/static.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-mini-profiler-2.3.4/lib/mini_profiler/profiler.rb:393:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/webpacker-5.4.3/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-proxy-0.7.2/lib/rack/proxy.rb:67:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/engine.rb:539:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/server.rb:441:in `process_client'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/static.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-mini-profiler-2.3.4/lib/mini_profiler/profiler.rb:393:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/webpacker-5.4.3/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-proxy-0.7.2/lib/rack/proxy.rb:67:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/engine.rb:539:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/server.rb:441:in `process_client'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:37:in `call_app'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `block in call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/rack/logger.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/activesupport-6.1.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/static.rb:24:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/actionpack-6.1.5/lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-mini-profiler-2.3.4/lib/mini_profiler/profiler.rb:393:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/webpacker-5.4.3/lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/rack-proxy-0.7.2/lib/rack/proxy.rb:67:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-6.1.5/lib/rails/engine.rb:539:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/server.rb:441:in `process_client'
+	from C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/__/firebase/9.6.11/firebase-storage-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-storage-compat.js"):
+  
+Started GET "/__/firebase/9.6.11/firebase-remote-config-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+Started GET "/__/firebase/init.js?useEmulator=true" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+Started GET "/__/firebase/9.6.11/firebase-analytics-compat.js" for 127.0.0.1 at 2022-04-19 17:10:12 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-remote-config-compat.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/init.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-analytics-compat.js"):
+  
+Started GET "/__/firebase/9.6.11/firebase-messaging-compat.js" for 127.0.0.1 at 2022-04-19 17:10:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/__/firebase/9.6.11/firebase-messaging-compat.js"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:11:24 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 149)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 1099ms
+Built at: 04/19/2022 5:11:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2871.4ms | Allocations: 34266)
+Completed 200 OK in 2884ms (Views: 2874.7ms | ActiveRecord: 0.0ms | Allocations: 37227)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:16:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 3958)
+Completed 200 OK in 44ms (Views: 43.2ms | Allocations: 5281)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:40:56 -0600
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 348)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.3ms | Allocations: 6686)
+Completed 200 OK in 65ms (Views: 56.9ms | ActiveRecord: 0.0ms | Allocations: 10117)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:41:51 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 70.0ms | Allocations: 3547)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms | Allocations: 4057)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:51:34 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 118.2ms | Allocations: 10392)
+Completed 200 OK in 122ms (Views: 121.1ms | Allocations: 11676)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:52:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.5ms | Allocations: 9431)
+Completed 200 OK in 59ms (Views: 59.0ms | Allocations: 9889)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:52:38 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 9632)
+Completed 200 OK in 63ms (Views: 62.9ms | Allocations: 10035)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:53:11 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 9632)
+Completed 200 OK in 60ms (Views: 59.7ms | Allocations: 10039)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 17:53:58 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 9641)
+Completed 200 OK in 61ms (Views: 60.3ms | Allocations: 10045)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:21:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 162)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 10364)
+Completed 200 OK in 59ms (Views: 58.3ms | Allocations: 11609)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:35:50 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 3980)
+Completed 200 OK in 49ms (Views: 47.7ms | Allocations: 5413)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:38:51 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 160)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 3982)
+Completed 200 OK in 44ms (Views: 43.1ms | Allocations: 5274)
+
+
+Started GET "/hero_tea_cup.jpg" for 127.0.0.1 at 2022-04-19 18:38:51 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hero_tea_cup.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:39:55 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 162)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 3990)
+Completed 200 OK in 44ms (Views: 39.0ms | Allocations: 5292)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/hero_tea_cup.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/hero_tea_cup.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:49:18 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.1ms | Allocations: 10377)
+Completed 200 OK in 60ms (Views: 59.2ms | Allocations: 11637)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:50:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 9669)
+Completed 200 OK in 60ms (Views: 59.7ms | Allocations: 10120)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:51:41 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 9674)
+Completed 200 OK in 60ms (Views: 60.0ms | Allocations: 10077)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:53:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 9692)
+Completed 200 OK in 59ms (Views: 59.1ms | Allocations: 10095)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:54:37 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 9687)
+Completed 200 OK in 60ms (Views: 60.1ms | Allocations: 10090)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:55:03 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 3986)
+Completed 200 OK in 45ms (Views: 43.7ms | Allocations: 5233)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:57:49 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.7ms | Allocations: 9828)
+Completed 200 OK in 60ms (Views: 59.2ms | Allocations: 10279)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 18:58:40 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.5ms | Allocations: 9685)
+Completed 200 OK in 59ms (Views: 58.9ms | Allocations: 10088)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:00:14 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 9688)
+Completed 200 OK in 60ms (Views: 59.8ms | Allocations: 10091)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:00:52 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | Allocations: 9685)
+Completed 200 OK in 60ms (Views: 59.5ms | Allocations: 10088)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:03:12 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 9687)
+Completed 200 OK in 60ms (Views: 59.3ms | Allocations: 10090)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:03:25 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 9685)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 10088)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:05:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.1ms | Allocations: 9706)
+Completed 200 OK in 59ms (Views: 58.6ms | Allocations: 10109)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:05:36 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 9769)
+Completed 200 OK in 60ms (Views: 59.6ms | Allocations: 10172)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:09:54 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 10429)
+Completed 200 OK in 58ms (Views: 57.2ms | Allocations: 11674)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:10:12 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 9708)
+Completed 200 OK in 60ms (Views: 59.6ms | Allocations: 10160)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:13:05 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 38.5ms | Allocations: 7810)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.6ms | Allocations: 11404)
+Completed 200 OK in 78ms (Views: 76.5ms | Allocations: 12643)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:14:47 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 10258)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 10709)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:15:55 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 10199)
+Completed 200 OK in 60ms (Views: 59.4ms | Allocations: 10602)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:16:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.3ms | Allocations: 10198)
+Completed 200 OK in 59ms (Views: 58.8ms | Allocations: 10602)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:16:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.5ms | Allocations: 10194)
+Completed 200 OK in 59ms (Views: 58.9ms | Allocations: 10597)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:17:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 10198)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 10601)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:21:15 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 883)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 4495)
+Completed 200 OK in 44ms (Views: 42.9ms | Allocations: 5875)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:24:50 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 598)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 10377)
+Completed 200 OK in 59ms (Views: 59.1ms | Allocations: 10829)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:26:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 10227)
+Completed 200 OK in 60ms (Views: 59.8ms | Allocations: 10631)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:33:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 885)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 10980)
+Completed 200 OK in 59ms (Views: 57.7ms | Allocations: 12224)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:34:25 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 84.8ms | Allocations: 10238)
+Completed 200 OK in 87ms (Views: 87.0ms | Allocations: 10689)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:35:46 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 61.2ms | Allocations: 10243)
+Completed 200 OK in 62ms (Views: 61.7ms | Allocations: 10647)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:46:10 -0600
+  [1m[35m (9.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 183.4ms | Allocations: 11198)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 257.6ms | Allocations: 15157)
+Completed 200 OK in 311ms (Views: 277.0ms | ActiveRecord: 0.0ms | Allocations: 18588)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:47:52 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 883)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.8ms | Allocations: 11108)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms | Allocations: 12465)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:50:23 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.8ms | Allocations: 10244)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms | Allocations: 10700)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:53:43 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 885)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 10999)
+Completed 200 OK in 76ms (Views: 75.0ms | Allocations: 12247)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:54:10 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 893)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 4505)
+Completed 200 OK in 46ms (Views: 44.7ms | Allocations: 5933)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:54:51 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 4.2ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 101.4ms | Allocations: 10396)
+Completed 200 OK in 102ms (Views: 101.9ms | Allocations: 10853)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:54:59 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.8ms | Allocations: 10261)
+Completed 200 OK in 60ms (Views: 59.2ms | Allocations: 10664)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:55:05 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 10245)
+Completed 200 OK in 60ms (Views: 59.7ms | Allocations: 10652)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:56:01 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 10262)
+Completed 200 OK in 60ms (Views: 60.0ms | Allocations: 10665)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:56:04 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 600)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 3901)
+Completed 200 OK in 45ms (Views: 44.5ms | Allocations: 4305)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:56:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 892)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 4504)
+Completed 200 OK in 45ms (Views: 43.6ms | Allocations: 5751)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:57:55 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 10406)
+Completed 200 OK in 60ms (Views: 59.3ms | Allocations: 10857)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 19:58:33 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 10274)
+Completed 200 OK in 60ms (Views: 59.4ms | Allocations: 10677)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:00:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 888)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 11022)
+Completed 200 OK in 61ms (Views: 60.3ms | Allocations: 12261)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:02:04 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 600)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 10278)
+Completed 200 OK in 59ms (Views: 59.1ms | Allocations: 10729)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:04:26 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 598)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 10262)
+Completed 200 OK in 60ms (Views: 59.5ms | Allocations: 10665)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:12:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 899)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 14619)
+Completed 200 OK in 76ms (Views: 74.7ms | Allocations: 15863)
+
+
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:12:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:12:39 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 621)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 11318)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 11803)
+
+
+Started GET "/images/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:12:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:12:44 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 11076)
+Completed 200 OK in 60ms (Views: 59.4ms | Allocations: 11479)
+
+
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:12:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:14:04 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.8ms | Allocations: 13809)
+Completed 200 OK in 61ms (Views: 60.3ms | Allocations: 14213)
+
+
+Started GET "/vector-up.png" for 127.0.0.1 at 2022-04-19 20:14:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:14:55 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 13797)
+Completed 200 OK in 60ms (Views: 59.4ms | Allocations: 14200)
+
+
+Started GET "/vector-up.png" for 127.0.0.1 at 2022-04-19 20:14:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:16:21 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 13797)
+Completed 200 OK in 59ms (Views: 59.0ms | Allocations: 14200)
+
+
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:16:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:16:48 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 605)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 13810)
+Completed 200 OK in 60ms (Views: 59.4ms | Allocations: 14214)
+
+
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:16:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:17:06 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 13808)
+Completed 200 OK in 60ms (Views: 59.7ms | Allocations: 14212)
+
+
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:17:06 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:17:19 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:18:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 605)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.0ms | Allocations: 11350)
+Completed 200 OK in 76ms (Views: 75.5ms | Allocations: 11754)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:18:28 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 606)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 70.8ms | Allocations: 10392)
+Completed 200 OK in 72ms (Views: 71.2ms | Allocations: 10796)
+
+
+Started GET "/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:18:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:18:36 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 10388)
+Completed 200 OK in 58ms (Views: 57.4ms | Allocations: 10791)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/vector-up.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/vector-up.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/vector-up.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/vector-up.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/vector-up.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:20:01 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 606)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 11004)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 11408)
+
+
+Started GET "/app/assets/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:20:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/vector-up.png"):
+  
+Started GET "/app/assets/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:20:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/vector-up.png"):
+  
+Started GET "/app/assets/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:20:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/vector-up.png"):
+  
+Started GET "/app/assets/images/vector-up.png" for 127.0.0.1 at 2022-04-19 20:20:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/vector-up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:20:46 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 606)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 10908)
+Completed 200 OK in 60ms (Views: 59.7ms | Allocations: 11312)
+
+
+Started GET "/app/assets/images/vector_up.png" for 127.0.0.1 at 2022-04-19 20:20:46 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/vector_up.png"):
+  
+Started GET "/app/assets/images/vector_up.png" for 127.0.0.1 at 2022-04-19 20:20:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/vector_up.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:21:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 606)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 12005)
+Completed 200 OK in 61ms (Views: 60.3ms | Allocations: 12409)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:21:34 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.4ms | Allocations: 13193)
+Completed 200 OK in 77ms (Views: 76.1ms | Allocations: 13596)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:23:52 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | Allocations: 13264)
+Completed 200 OK in 60ms (Views: 59.5ms | Allocations: 13667)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:28:15 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 900)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.4ms | Allocations: 14390)
+Completed 200 OK in 59ms (Views: 58.3ms | Allocations: 15628)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:28:54 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.2ms | Allocations: 13794)
+Completed 200 OK in 75ms (Views: 74.7ms | Allocations: 14245)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:29:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.6ms | Allocations: 13809)
+Completed 200 OK in 60ms (Views: 60.0ms | Allocations: 14212)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:30:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 13816)
+Completed 200 OK in 60ms (Views: 59.8ms | Allocations: 14219)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:32:09 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 13806)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 14209)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:33:28 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 13800)
+Completed 200 OK in 60ms (Views: 59.6ms | Allocations: 14203)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:34:29 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 13817)
+Completed 200 OK in 60ms (Views: 59.9ms | Allocations: 14220)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:34:46 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 13808)
+Completed 200 OK in 60ms (Views: 59.8ms | Allocations: 14211)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:36:21 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 605)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.2ms | Allocations: 13821)
+Completed 200 OK in 60ms (Views: 59.6ms | Allocations: 14224)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:37:04 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 604)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 4374)
+Completed 200 OK in 45ms (Views: 44.6ms | Allocations: 4777)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:38:02 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.2ms | Allocations: 13823)
+Completed 200 OK in 61ms (Views: 60.6ms | Allocations: 14226)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:38:25 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 14599)
+Completed 200 OK in 60ms (Views: 58.5ms | Allocations: 15843)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:38:53 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 907)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.4ms | Allocations: 4909)
+Completed 200 OK in 44ms (Views: 43.4ms | Allocations: 6196)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-19 20:39:51 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 13975)
+Completed 200 OK in 62ms (Views: 61.1ms | Allocations: 14426)
+
+
