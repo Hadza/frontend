@@ -84,8 +84,8 @@ header {
 }
 
 .hero-caption {
+  max-width: 1312px;
   font-style: normal;
-  vertical-align: center;
   margin-top: 69px;
   margin-left: 64px;
   margin-bottom: 62px;
@@ -133,6 +133,7 @@ header {
 }
 
 .why-us-content {
+  max-width: 1312px;
   margin-left: 64px;
   margin-right: 64px;
   display: flex;
@@ -190,3 +191,40 @@ header {
   50% { opacity: 1 }
 }
 
+
+//sign-up section
+
+.sign-up {
+  height: 387px;
+  background: #495664;
+  display: flex;
+}
+
+.sign-up-caption {
+  margin: 64px 74px 81px 64px;
+
+  h2 {
+    color: #FFFFFF;
+  }
+
+  h3 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+  }
+
+  button {
+    background: #0B1113;
+    color: #FFFFFF;
+    height: 42px;
+    width: 193px;
+    border: none;
+  }
+
+  .sign-up-img {
+    background-image: url('cta_tea_cup_desktop.jpg');
+    width: 822px;
+    height: 387px;
+    border: none;
+  }
+}
