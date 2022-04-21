@@ -356,8 +356,9 @@ header {
 
 .category-img {
     width: 830px;
-    height: 281px;
+    min-height: 281px;
     object-fit: cover;
+    margin-top: 2px;
 }
 
 .category-description {
@@ -383,13 +384,58 @@ header {
   }
 
   .sign-up-button{
-    margin-bottom: 41px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto auto;
   }
 }
 
 .item-list {
-  height: 251px;
-  margin-bottom: 75px;
+  height: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 124px;
+  margin-right: 124px;
 }
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  width: 152px;
+  background: #F9F9F7;;
+
+  .item-img {
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    margin: 13px auto 8px;
+  }
+
+  .item-name {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+  .item-desc {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .item-rating {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    margin: auto 20px 5px;
+  }
+}
+
+
