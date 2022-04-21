@@ -1,4 +1,7 @@
-window.onload = function () {
+document.addEventListener('DOMContentLoaded', init)
+
+
+function init () {
     let elements = document.getElementsByClassName("arrow")
 
     for ( let i = 0 ; i < elements.length ; i++ ) {

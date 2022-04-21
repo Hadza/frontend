@@ -1,24 +1,34 @@
 {
-  "application.js": "/packs/js/application-a3f24f4b6d942bab5b15.js",
-  "application.js.map": "/packs/js/application-a3f24f4b6d942bab5b15.js.map",
+  "application.js": "/packs/js/application-b0e2786b689a46140aca.js",
+  "application.js.map": "/packs/js/application-b0e2786b689a46140aca.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-a3f24f4b6d942bab5b15.js"
+        "/packs/js/application-b0e2786b689a46140aca.js"
       ],
       "js.map": [
-        "/packs/js/application-a3f24f4b6d942bab5b15.js.map"
+        "/packs/js/application-b0e2786b689a46140aca.js.map"
+      ]
+    },
+    "modal": {
+      "js": [
+        "/packs/js/modal-da1728a1287932f1b2d2.js"
+      ],
+      "js.map": [
+        "/packs/js/modal-da1728a1287932f1b2d2.js.map"
       ]
     },
     "toggle": {
       "js": [
-        "/packs/js/toggle-31e1ad014403f9db2a0f.js"
+        "/packs/js/toggle-78a261d0d4b783f0dbd8.js"
       ],
       "js.map": [
-        "/packs/js/toggle-31e1ad014403f9db2a0f.js.map"
+        "/packs/js/toggle-78a261d0d4b783f0dbd8.js.map"
       ]
     }
   },
-  "toggle.js": "/packs/js/toggle-31e1ad014403f9db2a0f.js",
-  "toggle.js.map": "/packs/js/toggle-31e1ad014403f9db2a0f.js.map"
+  "modal.js": "/packs/js/modal-da1728a1287932f1b2d2.js",
+  "modal.js.map": "/packs/js/modal-da1728a1287932f1b2d2.js.map",
+  "toggle.js": "/packs/js/toggle-78a261d0d4b783f0dbd8.js",
+  "toggle.js.map": "/packs/js/toggle-78a261d0d4b783f0dbd8.js.map"
 }

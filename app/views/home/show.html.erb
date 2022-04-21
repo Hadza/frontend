@@ -8,7 +8,7 @@
     <div class="hero-caption">
       <h1>Fullfill your most peculiar tea wishes.</h1>
       <h3>From a common black tea to the rarest Da Hong Pao, each of them delivered right at your door.</h3>
-      <button class="hero-button"><span>Learn more</span></button>
+      <button id="learn-more" class="hero-button"><span>Learn more</span></button>
     </div>
     <%= image_tag("hero_tea_cup.jpg", :alt => "Cup of tea surrounded by flowers, leaves and a book", :class => "hero-img") %>
   </section>
@@ -41,6 +41,31 @@
       <h3>Get the best tea experience you’ll ever taste right at your door each month</h3>
       <button class="sign-up-button">Sign up</button>
     </div>
-    <%= image_tag("cta_tea_cup_desktop.jpg", :alt => "", :class => "sign-up-img") %>
+    <div class="img-container ">
+      <%= image_tag("", :alt => "", :class => "sign-up-img") %>
+    </div>
   </section>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+
+      <section class="categories">
+        <div id="categories" class="categories-container">
+          <!--        Insert categories from modal.js          -->
+        </div>
+      </section>
+      <section class="category-description">
+        <span class="close">&times;</span>
+        <img
+          src="https://cdn.shopify.com/s/files/1/0311/4398/5197/collections/AOT-Location-Header-Banner_8135451a-0507-4cc5-a2e4-ea40a5618661_1800x.jpg?v=1586193127"
+          alt="" class="category-img" id="category-img">
+        <h1 id="category-title">Black Tea</h1>
+        <p id="category-description">Experience the world of black teas in one sample set. This is a great way to learn the wide range of flavors offered by black tea.</p>
+        <div id="items" class="item-list">
+
+        </div>
+        <button class="sign-up-button">Sign up</button>
+      </section>
+
+    </div>
+  </div>
 </main>

@@ -212,24 +212,184 @@ header {
     margin-bottom: 32px;
     color: #FFFFFF;
   }
+}
 
-  button {
-    background: #0B1113;
-    color: #FFFFFF;
-    height: 42px;
-    width: 193px;
-    border: none;
-    margin-top: 5px;
-  }
-
-  .sign-up-img {
-    background-image: url('cta_tea_cup_desktop.jpg');
-    width: 822px;
-    height: 387px;
-    border: none;
-  }
+.sign-up-button {
+  background: #0B1113;
+  color: #FFFFFF;
+  height: 42px;
+  width: 193px;
+  border: none;
+  margin-top: 5px;
 }
 
 .hidden {
  display: none;
+}
+
+.sign-up-img {
+  width: 822px;
+  height: 387px;
+  border: none;
+  background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.34),
+                  rgba(0, 0, 0, 0.34)
+                  ),url(cta_tea_cup_desktop.jpg);
+}
+
+.img-container {
+  background-color: rgba(11, 17, 19, 0.36);
+}
+
+
+//Modal
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: flex;
+  background-color: #fefefe;
+  margin: auto; /* 15% from the top and centered */
+  margin-top: 65px;
+  border-top-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  width: 90%; /* Could be more or less, depending on screen size */
+  height: 889px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 48px;
+  font-weight: normal;
+  position: relative;
+  left: 766px;
+  height: 64px;
+  width: 64px;
+  background: #FFFFFF;
+  border-bottom-left-radius: 25px;
+  margin-bottom: -64px;
+  text-align: center;
+  text-justify: auto;
+  color: #403B2C;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.categories {
+  margin: 0;
+  border-top-left-radius: 36px;
+  background: #F7F8F9;
+  max-height:889px;
+  width: 468px;
+  display: flex;
+
+  .categories-container {
+    margin: 100px 59px 100px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .categories-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-card {
+    height: 125px;
+    width: 351px;
+    margin-bottom: 36px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 9px 16px rgba(0, 20, 44, 0.1);
+    display: flex;
+  }
+  .category-img-thumbnail {
+    object-fit: cover;
+    width: 125px;
+    height: 125px;
+  }
+
+  .category-title {
+    margin-top: 43px;
+    text-align: end;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #24404F;
+  }
+
+  .category-rating {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 36px;
+    color: #24404F;
+    text-align: end;
+  }
+
+  .category-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+}
+
+.category-img {
+    width: 830px;
+    height: 281px;
+    object-fit: cover;
+}
+
+.category-description {
+  width: 830px;
+  height: 889px;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    margin-left:64px;
+    margin-right:64px;
+    margin-bottom: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #24404F;
+  }
+
+  .sign-up-button{
+    margin-bottom: 41px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.item-list {
+  height: 251px;
+  margin-bottom: 75px;
 }
