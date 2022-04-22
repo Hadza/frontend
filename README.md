@@ -22,6 +22,10 @@ This test consists on implementing a simple view following a design handoff with
 - **Do I need to use the Roboto font?** Yes, you can import it via Google Fonts.
 - **Is there any flexibility on the font-sizes and line heights?** No, these should follow what's defined in the design handoff.
 
+### Como correrlo
+- Ejecuta el comando gem install bundler si no lo tienes instalado
+- Ejecuta el comando bundle install
+- Ejecuta el comando rails s para iniciar el servidor
 
 ### Comentarios
 
@@ -38,4 +42,6 @@ En general me parecio una prueba entretenida, en especial la parte del modal don
 
 ## Mobile
 <img width="375" alt="Mobile" src="https://github.com/Hadza/frontend/blob/180ccbac47d744b3544a18e5482bf7ed56818d6b/mobile%20view.png">
+
+
 
