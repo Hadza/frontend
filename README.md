@@ -33,5 +33,9 @@ El próximo reto fue tratar de dejar el diseño pixel perfect para las resolucio
 
 En general me parecio una prueba entretenida, en especial la parte del modal donde ya tuve que traer informacion y trabajar el DOM con ella.
 
+## Desktop
+<img width="1440" alt="Desktop" src="https://github.com/Hadza/frontend/blob/aa65e6121b73338bc02cba39f2b1e6ddca8f83b3/desktop%20view.png">
 
-<img width="1440" alt="Desktop" src="https://user-images.githubusercontent.com/13852315/109897001-a0667400-7c57-11eb-82d3-6e30a3d5eb8c.png">
+## Mobile
+<img width="375" alt="Mobile" src="https://github.com/Hadza/frontend/blob/aa65e6121b73338bc02cba39f2b1e6ddca8f83b3/mobile%20view.png">
+
