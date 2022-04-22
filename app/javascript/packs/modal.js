@@ -26,7 +26,7 @@ function loadCategory(category) {
 
     let tea,name, picture, desc, rating
 
-    items.innerText = ''
+    items.textContent = ''
 
     category.content.forEach((item) => {
         tea = document.createElement('div')
@@ -45,7 +45,7 @@ function loadCategory(category) {
         desc.classList.add('item-desc')
 
         rating = document.createElement('span')
-        rating.innerText = item.rating + ' ☆'
+        rating.innerText = item.rating + '/5 ☆'
         rating.classList.add('item-rating')
 
         tea.appendChild(picture)
@@ -60,7 +60,7 @@ function renderCategoryList(){
     let modalElement = document.getElementById('categories')
     let category, img, name, rating, div
 
-    modalElement.innerText = ''
+    modalElement.textContent = ''
 
     productData.forEach((item, index) => {
         console.log(item)
@@ -109,16 +109,13 @@ function init () {
         modal.style.display = "block";
     })
 
-    var modal = document.getElementById("modal");
-    var span = document.getElementsByClassName("close")[0];
+    let modal = document.getElementById("modal");
+    let span = document.getElementsByClassName("close")[0];
 
-
-// When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
     }
 
-// When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";

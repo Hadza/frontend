@@ -50,9 +50,28 @@ button {
   line-height: 24px;
 }
 
+@media only screen and (max-width: 900px) {
+  h1 {
+    /* H1 - MOBILE */
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+}
+
 // header
 
 header {
+  border: 1px solid;
   height: 72px;
   display: flex;
   justify-content: space-between;
@@ -122,22 +141,65 @@ header {
   border-radius: 32px 32px 0px 0px;
 }
 
+@media only screen and (max-width: 1439px) {
+  .hero {
+    height: 693px;
+    align-content: center;
+    margin-bottom: 292px;
+    flex-direction: column;
+  }
+
+  .hero-caption {
+    height: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 109px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      text-align: center;
+      width: auto;
+    }
+    h3{
+      width: auto;
+      text-align: center;
+      margin-bottom: 32px;
+      margin-top: 46px;
+    }
+    .hero-button {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .hero-img {
+    object-fit: contain;
+    width: 80%;
+    height: 330px;
+    max-height: 400px;
+    align-self: center;
+    margin-top:0px;
+    margin-left:0;
+    margin-right:0;
+  }
+}
+
 // why us section
 
 .why-us {
-  margin-bottom: 87px;
-
   h2 {
     text-align: center;
     color: #0B1113;
-    margin-bottom: 63px;
+    margin-bottom: 64px;
   }
+  margin-bottom: 87px;
 }
 
 .why-us-content {
   max-width: 1312px;
-  margin-left: 64px;
-  margin-right: 64px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: space-between;
 
@@ -191,6 +253,37 @@ header {
   50% { opacity: 1 }
 }
 
+@media only screen and (max-width: 1439px) {
+  .why-us {
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .why-us {
+    h2 {
+      margin-bottom: 0;
+    }
+    margin-bottom: 64px;
+  }
+  .why-us-content {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    section {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 45px;
+      height: auto;
+
+      p {
+        margin-bottom: 55px;
+      }
+    }
+  }
+}
+
 
 //sign-up section
 
@@ -201,7 +294,7 @@ header {
 }
 
 .sign-up-caption {
-  margin: 64px 74px 81px 64px;
+  margin: 71px 74px 81px 64px;
 
   h2 {
     color: #FFFFFF;
@@ -241,35 +334,85 @@ header {
   background-color: rgba(11, 17, 19, 0.36);
 }
 
+@media only screen and (max-width: 1439px) {
+  .sign-up-img {
+    object-fit: contain;
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .sign-up-img {
+    object-fit: contain;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sign-up {
+    height: 387px;
+    flex-direction: column;
+    //justify-content: center;
+  }
+
+  .sign-up-caption {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    h2 {
+      margin-top: 64px;
+      margin-bottom: 27px;
+      text-align: center;
+    }
+
+    h3 {
+      margin: 4px 50px 20px;
+      text-align: center;
+    }
+  }
+
+  .sign-up-button {
+    margin: 0px auto 59px;
+  }
+
+  .sign-up-img {
+    width: 100%;
+    height: 116px;
+    background-size: cover;
+    background-image: linear-gradient(
+                    rgba(0, 0, 0, 0.34),
+                    rgba(0, 0, 0, 0.34)
+    ),url(cta_tea_cup_mobile.jpg);
+  }
+}
+
 
 //Modal
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content/Box */
 .modal-content {
   display: flex;
   background-color: #fefefe;
-  margin: auto; /* 15% from the top and centered */
-  margin-top: 65px;
+  margin: 65px auto auto;
   border-top-left-radius: 36px;
   border-bottom-right-radius: 36px;
-  width: 90%; /* Could be more or less, depending on screen size */
+  width: 90%;
   height: 889px;
 }
 
-/* The Close Button */
 .close {
   color: #aaa;
   float: right;
@@ -358,7 +501,6 @@ header {
     width: 830px;
     min-height: 281px;
     object-fit: cover;
-    margin-top: 2px;
 }
 
 .category-description {
