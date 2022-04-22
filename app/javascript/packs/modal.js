@@ -113,12 +113,17 @@ function init () {
     })
 
     let modal = document.getElementById("modal")
-    let span = document.getElementsByClassName("close")[0]
+    let close1 = document.getElementsByClassName("close")[0]
+    let close2 = document.getElementsByClassName("close")[1]
     let back = document.getElementsByClassName("back")[0]
     let categories = document.getElementsByClassName("categories")[0]
     let categoryDescription = document.getElementsByClassName("category-description")[0]
 
-    span.onclick = () => {
+    close1.onclick = () => {
+        modal.style.display = "none"
+    }
+
+    close2.onclick = () => {
         modal.style.display = "none"
     }
 
