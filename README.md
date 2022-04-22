@@ -23,4 +23,15 @@ This test consists on implementing a simple view following a design handoff with
 - **Is there any flexibility on the font-sizes and line heights?** No, these should follow what's defined in the design handoff.
 
 
+### Comentarios
+
+Al analizar la tarea entiendo que el desarrollo se haría mayormente en css y javascript puro, esto ya lo había trabajado de esta manera al hacer algunos templates de wordpress pero como tengo tiempo trabajando con frameworks o librerías tuve que volver a tomarle el hilo.
+
+Lo que fue nuevo para mi fue que se desarrollaba en una base de ruby on rails, al inicio del desarrollo me tomo un tiempo encontrar de qué manera se conectaba todo en ruby y entender el concepto de las gems y como funciona en sí ruby on rails, una vez que entendí lo básico ya pude avanzar más.
+
+El próximo reto fue tratar de dejar el diseño pixel perfect para las resoluciones especificadas, en esta parte se me complicó un poco más, principalmente en los textos, por alguna razón aunque utilizara el mismo font size se miraba más chico o más grande.
+
+En general me parecio una prueba entretenida, en especial la parte del modal donde ya tuve que traer informacion y trabajar el DOM con ella.
+
+
 <img width="1440" alt="Desktop" src="https://user-images.githubusercontent.com/13852315/109897001-a0667400-7c57-11eb-82d3-6e30a3d5eb8c.png">
