@@ -414,12 +414,13 @@ header {
 }
 
 .close {
+  top: 0;
+  right: 0;
+  position: absolute;
   color: #aaa;
   float: right;
   font-size: 48px;
   font-weight: normal;
-  position: relative;
-  left: 766px;
   height: 64px;
   width: 64px;
   background: #FFFFFF;
@@ -498,16 +499,16 @@ header {
 }
 
 .category-img {
-    width: 830px;
+    width: 100%;
     min-height: 281px;
     object-fit: cover;
 }
 
 .category-description {
-  width: 830px;
   height: 889px;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   h1 {
     margin-top: 17px;
@@ -535,8 +536,6 @@ header {
   margin-bottom: auto;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 124px;
-  margin-right: 124px;
 }
 
 .item-card {
