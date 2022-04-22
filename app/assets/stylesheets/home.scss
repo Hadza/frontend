@@ -71,7 +71,6 @@ button {
 // header
 
 header {
-  border: 1px solid;
   height: 72px;
   display: flex;
   justify-content: space-between;
@@ -96,7 +95,7 @@ header {
 //hero section
 
 .hero {
-  height: 513px;
+  height: 512px;
   background: #0B1113;
   display: flex;
   margin-bottom: 173px;
@@ -138,14 +137,14 @@ header {
   margin-top: 69px;
   margin-right: 64px;
   overflow: visible;
-  border-radius: 32px 32px 0px 0px;
+  border-radius: 40px 40px 0px 0px;
 }
 
 @media only screen and (max-width: 1439px) {
   .hero {
     height: 693px;
     align-content: center;
-    margin-bottom: 292px;
+    margin-bottom: 287px;
     flex-direction: column;
   }
 
@@ -164,8 +163,8 @@ header {
     h3{
       width: auto;
       text-align: center;
-      margin-bottom: 32px;
-      margin-top: 46px;
+      margin-bottom: 36px;
+      margin-top: 43px;
     }
     .hero-button {
       margin-left: auto;
@@ -175,7 +174,7 @@ header {
 
   .hero-img {
     object-fit: contain;
-    width: 80%;
+    width: 90%;
     height: 330px;
     max-height: 400px;
     align-self: center;
@@ -193,7 +192,7 @@ header {
     color: #0B1113;
     margin-bottom: 64px;
   }
-  margin-bottom: 87px;
+  margin-bottom: 84px;
 }
 
 .why-us-content {
@@ -221,6 +220,7 @@ header {
       margin-bottom: 5px;
       text-align: center;
       color: #000000;
+      font-size: 24px;
     }
 
     .arrow {
@@ -255,16 +255,16 @@ header {
 
 @media only screen and (max-width: 1439px) {
   .why-us {
-    margin-bottom: 64px;
+    margin-bottom: 82px;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .why-us {
     h2 {
-      margin-bottom: 0;
+      margin-bottom: 8px;
     }
-    margin-bottom: 64px;
+    margin-bottom: 82px;
   }
   .why-us-content {
     flex-direction: column;
@@ -278,7 +278,7 @@ header {
       height: auto;
 
       p {
-        margin-bottom: 55px;
+        margin-bottom: 35px;
       }
     }
   }
@@ -294,7 +294,7 @@ header {
 }
 
 .sign-up-caption {
-  margin: 71px 74px 81px 64px;
+  margin: 69px 74px 81px 64px;
 
   h2 {
     color: #FFFFFF;
@@ -413,6 +413,10 @@ header {
   height: 889px;
 }
 
+.back {
+  display: none;
+}
+
 .close {
   top: 0;
   right: 0;
@@ -445,6 +449,10 @@ header {
   max-height:889px;
   width: 468px;
   display: flex;
+
+  .close {
+    display: none;
+  }
 
   .categories-container {
     margin: 100px 59px 100px;
@@ -577,6 +585,93 @@ header {
     text-align: right;
     margin: auto 20px 5px;
   }
+}
+
+.our-tea {
+  display: none;
+}
+
+@media only screen and (max-width: 1135px) {
+
+  .our-tea {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .back {
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: #aaa;
+    float: right;
+    font-size: 48px;
+    font-weight: normal;
+    height: 64px;
+    width: 64px;
+    background: #FFFFFF;
+    border-bottom-right-radius: 25px;
+    margin-bottom: -64px;
+    text-align: center;
+    text-justify: auto;
+    color: #403B2C;
+  }
+
+  .categories .category-card {
+    width: 253px;
+    height: 100px;
+  }
+
+  .categories {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+
+    .close {
+      display: block;
+    }
+  }
+
+  .category-description {
+    overflow: scroll;
+    display: none;
+  }
+
+  .item-list {
+    flex-direction: column;
+  }
+
+  .categories .category-img-thumbnail {
+    width: 100px;
+    height: 100px;
+  }
+
+  .categories .category-title {
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #24404F;
+  }
+
+  .categories .categories-container {
+    margin: 80px auto 100px;
+  }
+
+  .item-card {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+  }
+
+  .category-description .sign-up-button {
+    margin-bottom: 25px;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 

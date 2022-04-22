@@ -11734,3 +11734,1066 @@ Processing by HomeController#show as HTML
 Completed 200 OK in 76ms (Views: 75.6ms | Allocations: 17768)
 
 
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:46:41 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.5ms | Allocations: 17383)
+Completed 200 OK in 76ms (Views: 75.9ms | Allocations: 17786)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:47:04 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 17364)
+Completed 200 OK in 75ms (Views: 74.5ms | Allocations: 17767)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:48:44 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.8ms | Allocations: 17366)
+Completed 200 OK in 76ms (Views: 75.3ms | Allocations: 17769)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:50:38 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 4608)
+Completed 200 OK in 44ms (Views: 43.5ms | Allocations: 5011)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:53:05 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 17373)
+Completed 200 OK in 75ms (Views: 75.0ms | Allocations: 17776)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:53:43 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.3ms | Allocations: 17380)
+Completed 200 OK in 75ms (Views: 74.8ms | Allocations: 17783)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 20:59:21 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 624)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.1ms | Allocations: 17368)
+Completed 200 OK in 76ms (Views: 75.5ms | Allocations: 17771)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 22:48:42 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 624)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 94.1ms | Allocations: 17370)
+Completed 200 OK in 101ms (Views: 97.0ms | Allocations: 17773)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 22:57:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 4595)
+Completed 200 OK in 44ms (Views: 43.5ms | Allocations: 4998)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 22:59:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 4595)
+Completed 200 OK in 44ms (Views: 43.7ms | Allocations: 4998)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 22:59:11 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 4598)
+Completed 200 OK in 44ms (Views: 44.0ms | Allocations: 5001)
+
+
+Started GET "/" for ::1 at 2022-04-21 23:03:27 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 4654)
+Completed 200 OK in 44ms (Views: 43.3ms | Allocations: 5010)
+
+
+Started GET "/" for ::1 at 2022-04-21 23:14:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 77.9ms | Allocations: 17388)
+Completed 200 OK in 79ms (Views: 78.4ms | Allocations: 17791)
+
+
+Started GET "/" for ::1 at 2022-04-21 23:14:54 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.8ms | Allocations: 17397)
+Completed 200 OK in 76ms (Views: 75.3ms | Allocations: 17800)
+
+
+Started GET "/" for ::1 at 2022-04-21 23:15:40 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.8ms | Allocations: 17391)
+Completed 200 OK in 76ms (Views: 75.2ms | Allocations: 17794)
+
+
+Started GET "/" for ::1 at 2022-04-21 23:21:12 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 622)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 17404)
+Completed 200 OK in 75ms (Views: 75.0ms | Allocations: 17807)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-21 23:28:24 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 4598)
+Completed 200 OK in 44ms (Views: 44.0ms | Allocations: 5001)
+
+
+Started GET "/null" for 127.0.0.1 at 2022-04-21 23:29:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/null"):
+  
+Started GET "/" for 127.0.0.1 at 2022-04-22 09:31:06 -0600
+Started GET "/service-worker.js" for 127.0.0.1 at 2022-04-22 09:31:06 -0600
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1018.8ms | Allocations: 67038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1104.4ms | Allocations: 71778)
+Completed 200 OK in 1161ms (Views: 1125.7ms | ActiveRecord: 0.0ms | Allocations: 83767)
+
+
+Started GET "/service-worker.js" for 127.0.0.1 at 2022-04-22 09:31:08 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+Started GET "/" for ::1 at 2022-04-22 09:31:24 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 4802)
+Completed 200 OK in 44ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 5214)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:00:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 133.5ms | Allocations: 17630)
+Completed 200 OK in 135ms (Views: 134.2ms | Allocations: 18035)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:06:08 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 4623)
+Completed 200 OK in 44ms (Views: 43.8ms | Allocations: 5030)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:06:42 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 994)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 5315)
+Completed 200 OK in 45ms (Views: 44.0ms | Allocations: 6555)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:06:46 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 4597)
+Completed 200 OK in 44ms (Views: 43.6ms | Allocations: 5054)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:08:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.9ms | Allocations: 17543)
+Completed 200 OK in 76ms (Views: 75.5ms | Allocations: 17947)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:09:22 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.3ms | Allocations: 17380)
+Completed 200 OK in 77ms (Views: 76.8ms | Allocations: 17783)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:09:36 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.9ms | Allocations: 17356)
+Completed 200 OK in 76ms (Views: 75.4ms | Allocations: 17759)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:10:51 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 4624)
+Completed 200 OK in 44ms (Views: 43.7ms | Allocations: 5028)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:13:28 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.3ms | Allocations: 17382)
+Completed 200 OK in 76ms (Views: 75.8ms | Allocations: 17785)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:17:14 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.5ms | Allocations: 17377)
+Completed 200 OK in 75ms (Views: 74.9ms | Allocations: 17781)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:18:50 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.7ms | Allocations: 17374)
+Completed 200 OK in 76ms (Views: 75.2ms | Allocations: 17777)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:19:59 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 78.2ms | Allocations: 17395)
+Completed 200 OK in 79ms (Views: 78.8ms | Allocations: 17799)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:20:42 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.9ms | Allocations: 4624)
+Completed 200 OK in 45ms (Views: 44.3ms | Allocations: 5028)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:23:48 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 624)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 4639)
+Completed 200 OK in 45ms (Views: 44.3ms | Allocations: 5042)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:27:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 17389)
+Completed 200 OK in 76ms (Views: 75.9ms | Allocations: 17793)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:28:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 17382)
+Completed 200 OK in 61ms (Views: 60.2ms | Allocations: 17785)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:38:55 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.5ms | Allocations: 17422)
+Completed 200 OK in 75ms (Views: 74.9ms | Allocations: 17826)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:40:27 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.7ms | Allocations: 17407)
+Completed 200 OK in 76ms (Views: 75.2ms | Allocations: 17811)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:40:47 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.4ms | Allocations: 17379)
+Completed 200 OK in 75ms (Views: 74.8ms | Allocations: 17783)
+
+
+Started GET "/" for ::1 at 2022-04-22 11:41:18 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 70.4ms | Allocations: 17407)
+Completed 200 OK in 71ms (Views: 70.9ms | Allocations: 17810)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:00:59 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 4641)
+Completed 200 OK in 44ms (Views: 43.9ms | Allocations: 5045)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:08:08 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 17433)
+Completed 200 OK in 76ms (Views: 75.8ms | Allocations: 17836)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:09:33 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 17428)
+Completed 200 OK in 76ms (Views: 75.6ms | Allocations: 17832)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:10:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.2ms | Allocations: 17429)
+Completed 200 OK in 73ms (Views: 72.7ms | Allocations: 17832)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:16:26 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 997)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 18281)
+Completed 200 OK in 76ms (Views: 74.8ms | Allocations: 19525)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:17:01 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.0ms | Allocations: 17443)
+Completed 200 OK in 76ms (Views: 75.6ms | Allocations: 17895)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:20:17 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 993)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2022-04-22 12:20:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 623)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: c6d6f6cdca7af143053d
+Version: webpack 4.46.0
+Time: 862ms
+Built at: 04/22/2022 12:20:20 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ad47fee5bcd80d3280a8.js    156 KiB  application  [emitted] [immutable]  application
+js/application-ad47fee5bcd80d3280a8.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-b8e3333ca83d7dd0dd13.js   33.8 KiB        modal  [emitted] [immutable]  modal
+      js/modal-b8e3333ca83d7dd0dd13.js.map   36.9 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-ad47fee5bcd80d3280a8.js js/application-ad47fee5bcd80d3280a8.js.map
+Entrypoint modal = js/modal-b8e3333ca83d7dd0dd13.js js/modal-b8e3333ca83d7dd0dd13.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.69 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2885.2ms | Allocations: 13881)
+Completed 200 OK in 2889ms (Views: 2888.3ms | Allocations: 15115)
+
+
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: c6d6f6cdca7af143053d
+Version: webpack 4.46.0
+Time: 586ms
+Built at: 04/22/2022 12:20:21 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ad47fee5bcd80d3280a8.js    156 KiB  application  [emitted] [immutable]  application
+js/application-ad47fee5bcd80d3280a8.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-b8e3333ca83d7dd0dd13.js   33.8 KiB        modal  [emitted] [immutable]  modal
+      js/modal-b8e3333ca83d7dd0dd13.js.map   36.9 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-ad47fee5bcd80d3280a8.js js/application-ad47fee5bcd80d3280a8.js.map
+Entrypoint modal = js/modal-b8e3333ca83d7dd0dd13.js js/modal-b8e3333ca83d7dd0dd13.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.69 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2363.0ms | Allocations: 7627)
+Completed 200 OK in 2364ms (Views: 2363.5ms | Allocations: 8091)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:22:23 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 625)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: 4ff74aef4b47b3a07251
+Version: webpack 4.46.0
+Time: 695ms
+Built at: 04/22/2022 12:22:25 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8f5c2ae321cbd004715e.js    156 KiB  application  [emitted] [immutable]  application
+js/application-8f5c2ae321cbd004715e.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-befeec7f25ff09149d2d.js   33.9 KiB        modal  [emitted] [immutable]  modal
+      js/modal-befeec7f25ff09149d2d.js.map     37 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-8f5c2ae321cbd004715e.js js/application-8f5c2ae321cbd004715e.js.map
+Entrypoint modal = js/modal-befeec7f25ff09149d2d.js js/modal-befeec7f25ff09149d2d.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.73 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2457.3ms | Allocations: 5716)
+Completed 200 OK in 2458ms (Views: 2457.9ms | Allocations: 6119)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:23:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 625)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2022-04-22 12:23:32 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 625)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: bfe4d24f3eb53e5bee77
+Version: webpack 4.46.0
+Time: 794ms
+Built at: 04/22/2022 12:23:33 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f3bd116b3bf3b786061e.js    156 KiB  application  [emitted] [immutable]  application
+js/application-f3bd116b3bf3b786061e.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-893e2e4261c04f335223.js   33.9 KiB        modal  [emitted] [immutable]  modal
+      js/modal-893e2e4261c04f335223.js.map     37 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-f3bd116b3bf3b786061e.js js/application-f3bd116b3bf3b786061e.js.map
+Entrypoint modal = js/modal-893e2e4261c04f335223.js js/modal-893e2e4261c04f335223.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.75 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2542.7ms | Allocations: 12716)
+Completed 200 OK in 2544ms (Views: 2543.2ms | Allocations: 13119)
+
+
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: bfe4d24f3eb53e5bee77
+Version: webpack 4.46.0
+Time: 582ms
+Built at: 04/22/2022 12:23:34 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f3bd116b3bf3b786061e.js    156 KiB  application  [emitted] [immutable]  application
+js/application-f3bd116b3bf3b786061e.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-893e2e4261c04f335223.js   33.9 KiB        modal  [emitted] [immutable]  modal
+      js/modal-893e2e4261c04f335223.js.map     37 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-f3bd116b3bf3b786061e.js js/application-f3bd116b3bf3b786061e.js.map
+Entrypoint modal = js/modal-893e2e4261c04f335223.js js/modal-893e2e4261c04f335223.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.75 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2421.5ms | Allocations: 7402)
+Completed 200 OK in 2422ms (Views: 2422.0ms | Allocations: 7805)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:24:57 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.5ms | Allocations: 17615)
+Completed 200 OK in 75ms (Views: 74.9ms | Allocations: 18018)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:28:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 625)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2022-04-22 12:28:47 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: a3222f3c7489c4dac5f4
+Version: webpack 4.46.0
+Time: 717ms
+Built at: 04/22/2022 12:28:48 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1d296a88ba689b3a65ac.js    156 KiB  application  [emitted] [immutable]  application
+js/application-1d296a88ba689b3a65ac.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-94e422ecb0646a8f2a38.js     34 KiB        modal  [emitted] [immutable]  modal
+      js/modal-94e422ecb0646a8f2a38.js.map   37.2 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-1d296a88ba689b3a65ac.js js/application-1d296a88ba689b3a65ac.js.map
+Entrypoint modal = js/modal-94e422ecb0646a8f2a38.js js/modal-94e422ecb0646a8f2a38.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.89 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2464.6ms | Allocations: 25592)
+Completed 200 OK in 2465ms (Views: 2465.1ms | Allocations: 25996)
+
+
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: a3222f3c7489c4dac5f4
+Version: webpack 4.46.0
+Time: 569ms
+Built at: 04/22/2022 12:28:49 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1d296a88ba689b3a65ac.js    156 KiB  application  [emitted] [immutable]  application
+js/application-1d296a88ba689b3a65ac.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-94e422ecb0646a8f2a38.js     34 KiB        modal  [emitted] [immutable]  modal
+      js/modal-94e422ecb0646a8f2a38.js.map   37.2 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-1d296a88ba689b3a65ac.js js/application-1d296a88ba689b3a65ac.js.map
+Entrypoint modal = js/modal-94e422ecb0646a8f2a38.js js/modal-94e422ecb0646a8f2a38.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.89 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2325.4ms | Allocations: 7469)
+Completed 200 OK in 2326ms (Views: 2325.9ms | Allocations: 7872)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:30:27 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 626)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: 9d190714cbfb21b3eadf
+Version: webpack 4.46.0
+Time: 698ms
+Built at: 04/22/2022 12:30:29 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c086ae71da6a40e77951.js    156 KiB  application  [emitted] [immutable]  application
+js/application-c086ae71da6a40e77951.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-86efe416b92772a842dc.js     34 KiB        modal  [emitted] [immutable]  modal
+      js/modal-86efe416b92772a842dc.js.map   37.2 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-c086ae71da6a40e77951.js js/application-c086ae71da6a40e77951.js.map
+Entrypoint modal = js/modal-86efe416b92772a842dc.js js/modal-86efe416b92772a842dc.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 4.93 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2505.4ms | Allocations: 5731)
+Completed 200 OK in 2506ms (Views: 2505.9ms | Allocations: 6135)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:31:22 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 626)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: 2f5afb83f0d1a1810892
+Version: webpack 4.46.0
+Time: 695ms
+Built at: 04/22/2022 12:31:24 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-501d5cfb37f3cad92005.js    156 KiB  application  [emitted] [immutable]  application
+js/application-501d5cfb37f3cad92005.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-90afcb1b9e2724583e3e.js   34.1 KiB        modal  [emitted] [immutable]  modal
+      js/modal-90afcb1b9e2724583e3e.js.map   37.3 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-501d5cfb37f3cad92005.js js/application-501d5cfb37f3cad92005.js.map
+Entrypoint modal = js/modal-90afcb1b9e2724583e3e.js js/modal-90afcb1b9e2724583e3e.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 5.02 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2371.5ms | Allocations: 5714)
+Completed 200 OK in 2372ms (Views: 2371.9ms | Allocations: 6117)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:33:25 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 17476)
+Completed 200 OK in 75ms (Views: 75.0ms | Allocations: 17879)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:37:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 625)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: f89abdaf5b63b77fc025
+Version: webpack 4.46.0
+Time: 684ms
+Built at: 04/22/2022 12:37:21 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-83839a5d383a653cfc42.js    156 KiB  application  [emitted] [immutable]  application
+js/application-83839a5d383a653cfc42.js.map    173 KiB  application  [emitted] [dev]        application
+          js/modal-4aa500254c31abc01806.js   34.3 KiB        modal  [emitted] [immutable]  modal
+      js/modal-4aa500254c31abc01806.js.map   37.6 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-83839a5d383a653cfc42.js js/application-83839a5d383a653cfc42.js.map
+Entrypoint modal = js/modal-4aa500254c31abc01806.js js/modal-4aa500254c31abc01806.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 5.2 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2479.9ms | Allocations: 5729)
+Completed 200 OK in 2481ms (Views: 2480.4ms | Allocations: 6133)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:37:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 625)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.6ms | Allocations: 17467)
+Completed 200 OK in 75ms (Views: 75.0ms | Allocations: 17871)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:39:56 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 626)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: 5a725b83ee360668f813
+Version: webpack 4.46.0
+Time: 697ms
+Built at: 04/22/2022 12:39:58 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2c30d0bdb95301c32f92.js    157 KiB  application  [emitted] [immutable]  application
+js/application-2c30d0bdb95301c32f92.js.map    174 KiB  application  [emitted] [dev]        application
+          js/modal-220b8c11288d7f2a4ac0.js   34.4 KiB        modal  [emitted] [immutable]  modal
+      js/modal-220b8c11288d7f2a4ac0.js.map   37.7 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-2c30d0bdb95301c32f92.js js/application-2c30d0bdb95301c32f92.js.map
+Entrypoint modal = js/modal-220b8c11288d7f2a4ac0.js js/modal-220b8c11288d7f2a4ac0.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 5.31 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2386.1ms | Allocations: 5730)
+Completed 200 OK in 2387ms (Views: 2386.5ms | Allocations: 6134)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:43:44 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.0ms | Allocations: 17471)
+Completed 200 OK in 76ms (Views: 75.6ms | Allocations: 17874)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:45:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 623)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 4704)
+Completed 200 OK in 45ms (Views: 44.6ms | Allocations: 5107)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:45:24 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 625)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: f911a6866992cf348b0c
+Version: webpack 4.46.0
+Time: 679ms
+Built at: 04/22/2022 12:45:26 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-310ede63e4a1b9f4a507.js    157 KiB  application  [emitted] [immutable]  application
+js/application-310ede63e4a1b9f4a507.js.map    174 KiB  application  [emitted] [dev]        application
+          js/modal-bcc46479cd6c3c9b43d3.js   34.4 KiB        modal  [emitted] [immutable]  modal
+      js/modal-bcc46479cd6c3c9b43d3.js.map   37.7 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-310ede63e4a1b9f4a507.js js/application-310ede63e4a1b9f4a507.js.map
+Entrypoint modal = js/modal-bcc46479cd6c3c9b43d3.js js/modal-bcc46479cd6c3c9b43d3.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 5.31 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2456.1ms | Allocations: 5806)
+Completed 200 OK in 2457ms (Views: 2456.6ms | Allocations: 6210)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:47:05 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 999)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.4ms | Allocations: 18323)
+Completed 200 OK in 77ms (Views: 76.2ms | Allocations: 19568)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:49:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 998)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 71.7ms | Allocations: 18335)
+Completed 200 OK in 76ms (Views: 74.7ms | Allocations: 19628)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:49:43 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 626)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.7ms | Allocations: 17495)
+Completed 200 OK in 76ms (Views: 75.3ms | Allocations: 17946)
+
+
+Started GET "/" for ::1 at 2022-04-22 12:50:35 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 625)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/WebstormProjects/frontend/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+[Webpacker] Hash: 20f22af4cb73576b836d
+Version: webpack 4.46.0
+Time: 694ms
+Built at: 04/22/2022 12:50:37 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ed8518cf199376b4de32.js    157 KiB  application  [emitted] [immutable]  application
+js/application-ed8518cf199376b4de32.js.map    174 KiB  application  [emitted] [dev]        application
+          js/modal-45a2d7b1af8fa7110039.js   34.4 KiB        modal  [emitted] [immutable]  modal
+      js/modal-45a2d7b1af8fa7110039.js.map   37.7 KiB        modal  [emitted] [dev]        modal
+         js/toggle-78a261d0d4b783f0dbd8.js   4.22 KiB       toggle  [emitted] [immutable]  toggle
+     js/toggle-78a261d0d4b783f0dbd8.js.map   4.01 KiB       toggle  [emitted] [dev]        toggle
+                             manifest.json  965 bytes               [emitted]              
+Entrypoint application = js/application-ed8518cf199376b4de32.js js/application-ed8518cf199376b4de32.js.map
+Entrypoint modal = js/modal-45a2d7b1af8fa7110039.js js/modal-45a2d7b1af8fa7110039.js.map
+Entrypoint toggle = js/toggle-78a261d0d4b783f0dbd8.js js/toggle-78a261d0d4b783f0dbd8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 529 bytes {application} [built]
+[./app/javascript/packs/modal.js] 5.31 KiB {modal} {application} [built]
+[./app/javascript/packs/toggle.js] 357 bytes {toggle} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 5 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2585.4ms | Allocations: 18588)
+Completed 200 OK in 2586ms (Views: 2586.0ms | Allocations: 18992)
+
+

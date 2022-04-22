@@ -89,6 +89,9 @@ function renderCategoryList(){
         category.appendChild(div)
 
         category.addEventListener('click', (e) => {
+            let categoryDescription = document.getElementsByClassName("category-description")[0]
+            modalElement.parentElement.style.display = 'none'
+            categoryDescription.style.display = 'flex'
             loadCategory(item)
         })
 
@@ -109,16 +112,34 @@ function init () {
         modal.style.display = "block";
     })
 
-    let modal = document.getElementById("modal");
-    let span = document.getElementsByClassName("close")[0];
+    let modal = document.getElementById("modal")
+    let span = document.getElementsByClassName("close")[0]
+    let back = document.getElementsByClassName("back")[0]
+    let categories = document.getElementsByClassName("categories")[0]
+    let categoryDescription = document.getElementsByClassName("category-description")[0]
 
-    span.onclick = function() {
-        modal.style.display = "none";
+    span.onclick = () => {
+        modal.style.display = "none"
+    }
+
+    back.onclick = () => {
+        categories.style.display = "flex"
+        categoryDescription.style.display = "none"
     }
 
     window.onclick = function(event) {
         if (event.target == modal) {
-            modal.style.display = "none";
+            modal.style.display = "none"
         }
     }
+
+    window.addEventListener('resize', () => {
+        if(window.innerWidth > 1135) {
+            categories.style.display = "flex"
+            categoryDescription.style.display = "flex"
+        }else{
+            categories.style.display = "flex"
+            categoryDescription.style.display = "none"
+        }
+    })
 }
